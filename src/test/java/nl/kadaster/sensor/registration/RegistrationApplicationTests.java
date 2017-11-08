@@ -21,8 +21,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest()
-public class SensorRegistrationApplicationTests {
+@SpringBootTest
+public class RegistrationApplicationTests {
 
 	@Test
 	public void contextLoads() {

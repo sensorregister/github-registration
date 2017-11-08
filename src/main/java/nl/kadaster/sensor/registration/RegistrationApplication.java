@@ -42,7 +42,7 @@ import org.springframework.web.filter.CompositeFilter;
 @EnableOAuth2Client
 @EnableAuthorizationServer
 @Order(6)
-public class SensorRegistrationApplication extends WebSecurityConfigurerAdapter {
+public class RegistrationApplication extends WebSecurityConfigurerAdapter {
 
 	@Autowired
 	OAuth2ClientContext oauth2ClientContext;
@@ -78,7 +78,7 @@ public class SensorRegistrationApplication extends WebSecurityConfigurerAdapter 
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(SensorRegistrationApplication.class, args);
+		SpringApplication.run(RegistrationApplication.class, args);
 	}
 
 	@Bean

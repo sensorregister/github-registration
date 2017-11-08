@@ -6,7 +6,7 @@ security:
       scope: read,write
       auto-approve-scopes: '.*'
 
-# TODO - Move to centralised config server
+# TODO - Move to centralized config server
 github:
   client:
     clientId: ${vcap.services.registration-keys.credentials.CLIENT_ID}
